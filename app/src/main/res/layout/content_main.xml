@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/tv_ls"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text=""
+        android:scrollbars="vertical"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/et_shuruhtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="格式：www.baidu.com"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btn_huoquhtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_button"
+        android:text="获取"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_xianshihtml"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:text="发掘(☄ฺ◣ω◢)☄ฺ"
+        android:textIsSelectable="true"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>

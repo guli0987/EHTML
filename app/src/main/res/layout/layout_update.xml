@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/start"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始下载" />
+
+    <Button
+        android:id="@+id/pause"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="暂停下载" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除安装包" />
+
+    <Button
+        android:id="@+id/checkU"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查更新" />
+
+    <Button
+        android:id="@+id/install"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="直接安装" />
+    <Button
+        android:id="@+id/updateNote"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="更新日志" />
+    <Button
+        android:id="@+id/howMake"
+        android:background="@drawable/shape_updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用说明" />
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_create"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="新建" />
+        <item
+            android:id="@+id/nav_liebiao"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+    <item android:title="相关">
+        <menu>
+            <item
+                android:id="@+id/nav_hsz"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="回收站" />
+            <item
+                android:id="@+id/nav_address"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="位置" />
+        </menu>
+    </item>
+
+</menu>
